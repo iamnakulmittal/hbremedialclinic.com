@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Information & SEO / GEO Optimizations -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="H.B. Remedial Clinic: A Homeopathy Holistic Health and Wellness Clinic offering compassionate, natural healthcare in Gwalior, M.P., BHARAT. Trusted for decades in holistic healing.">
+  <meta name="keywords" content="homeopathy clinic Gwalior, holistic health Gwalior, wellness clinic, homeopathy, natural healing, H.B. Remedial Clinic">
+  <meta name="author" content="H.B. Remedial Clinic">
+  <meta name="geo.position" content="26.2191;78.1828">
+  <meta name="geo.region" content="IN-MP">
+  <meta name="geo.placename" content="Gwalior">
+  <link rel="canonical" href="https://www.hbremedialclinic.com">
+  <title>H.B. Remedial Clinic | Homeopathy Clinic | Gwalior</title>
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "H.B. Remedial Clinic",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bhagwan Sri Haidakhan Baba Ashram, Gandhi Road, Thatipur",
+      "addressLocality": "Gwalior",
+      "addressRegion": "M.P.",
+      "postalCode": "474011",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-91715-93799",
+    "email": "hbrc.gwl@gmail.com",
+    "url": "https://www.hbremedialclinic.com",
+    "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <!-- Embedded CSS -->
+  <style>
+                                                                                            /* Global Reset */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FAF8F3;
+      color: #333;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+                                                                                            /* Main Content Sections */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h1 {
+      font-size: 2em;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 2em;
+      color: #B76E79;
+      margin-bottom: 20px;
+    }
+    section p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+    }
+    .cta-section {
+      background: #B76E79;
+      color: #FFF;
+      padding: 40px 20px;
+    }
+    .cta-section h2 {
+      margin-bottom: 20px;
+    }
+    .cta-section .cta-btn {
+      background: #FFF;
+      color: #B76E79;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .cta-section .cta-btn:hover {
+      background: #f2f2f2;
+    }
+
+                                                                                            /* Top Header */
+    .top-header {
+    background-color: #F5E6EA;
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;
+    max-width: 0 auto; /* Set maximum width for the header */
+    margin: 0 auto; /* Center the header on the page */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    top: 0;
+    z-index: 1000;
+  }
+  .social-icons a {
+    margin-right: 12px;
+    font-size: 16px;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #B76E79;
+  }
+  .top-buttons a {
+    font-size: 14px;
+    color: #555;
+    padding: 5px 10px;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  .top-buttons .consult-btn {
+    background: #B76E79;
+    color: #FAF8F3;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  .top-buttons a:hover {
+    background: #F5E6EA;
+    color: #333333;
+  }
+
+
+                                                                                        /* --------------------------------
+                                                                                           Slimmed Navbar Styling
+                                                                                        -------------------------------- */
+    .nav-container {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      position: absolute; /* Positioned below the top header initially */
+      top: 40px; /* Adjust this to match the top header's height */
+      left: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 10px;
+      background: transparent; /* Start transparent */
+      transition: background 0.3s ease, top 0.3s ease, position 0.3s ease;
+    }
+
+    .nav-container:hover {
+      background: rgba(0, 0, 0, 0.2); /* Background appears on hover */
+    }
+
+    .nav-container.active {
+      background: rgba(0, 0, 0, 0.2); /* Background remains visible when search box is active */
+    }
+
+    .nav-container.sticky {
+  position: fixed; /* Sticky navbar remains at the top of the viewport */
+  top: 0; /* Aligns to the very top */
+  width: 100%; /* Full-width navbar */
+  z-index: 1000; /* Keeps navbar above other elements */
+  background: rgba(0, 0, 0, 0.6); /* Visible background when sticky */
+  transition: background 0.3s ease;
+}
+
+.nav-container.active {
+  background: #E2E2E2; /* Maintain visible background */
+}
+
+ .nav-menu {
+      list-style: none;
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      justify-content: space-between; /* Ensure even spacing between items */
+    }
+
+    .nav-menu li {
+      position: relative; /* Position relative for dropdown alignment */
+      flex: 1; /* Auto-adjust space dynamically based on content */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+    }
+
+    .nav-menu a {
+      padding: 5px 10px; /* Slimmed padding for a smaller look */
+      font-weight: bold;
+      font-size: 14px; /* Slightly smaller font size for sleekness */
+      color: #333333; /* Keep items always visible */
+      text-align: center;
+      transition: color 0.3s ease;
+      white-space: nowrap; /* Prevent text wrapping */
+      overflow: hidden;    /* Hide any overflowing text */
+      text-overflow: ellipsis; /* Add ellipsis (...) if text overflows */
+    }
+
+    .nav-menu a:hover {
+      color: #B76E79;
+    }
+
+                                                                                        /* --------------------------------
+                                                                                           Slimmer Dropdown Styling
+                                                                                        -------------------------------- */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #FAF8F3; /* Dropdown background */
+      width: 200px; /* Reduced width for a slimmer dropdown */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      display: block;
+      width: 100%;
+      padding: 6px 8px; /* Slimmed padding for dropdown items */
+      font-size: 13px; /* Smaller font size for dropdown items */
+      color: #333333; /* Text color */
+      text-align: center; /* Center-align dropdown text */
+      transition: background 0.3s ease;
+    }
+
+    .dropdown-content a:hover {
+      background: #E9DCC9;
+      color: #B76E79;
+    }
+
+    .nav-menu li:hover .dropdown-content {
+      display: block;
+    }
+
+                                                                                        /* --------------------------------
+                                                                                           Centered Logo Styling
+                                                                                        -------------------------------- */
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #B76E79;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+                                                                                        /* --------------------------------
+                                                                                           Slimmed Search Box Styling
+                                                                                        -------------------------------- */    
+    .search-btn {
+      background: none;
+      border: none;
+      color: #333333;
+      font-size: 16px;  /* Slightly smaller search icon size */
+      cursor: pointer;
+      padding: 4px;  /* Smaller padding for compact look */
+      transition: color 0.3s ease;
+    }
+
+    .search-btn:hover {
+      color: #B76E79;
+    }
+
+                                                                                                        /* Search Box Styling */
+    .search-box-container {
+      display: none;
+      position: absolute;
+      top: 150px; /* Below the navbar */
+      right: 20px; /* Aligned to the right corner of the navbar */
+      background: #FAF8F3;
+      border: 1px solid #E2E2E2;
+      padding: 8px; /* Slimmed padding */
+      border-radius: 4px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 999;
+    }
+    .search-box-container input {
+      width: 180px; /* Slimmed input width */
+      padding: 6px; /* Smaller input padding */
+      font-size: 13px; /* Slightly smaller font size */
+      border: 1px solid #E2E2E2;
+      border-radius: 4px;
+    }
+
+    .search-box-container .search-submit {
+      background: #B76E79;
+      color: #FFF;
+      border: none;
+      padding: 6px 10px; /* Slimmed button padding */
+      border-radius: 4px;
+      font-size: 13px; /* Slightly smaller font size */
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    .search-box-container .search-submit:hover {
+      background: #A15A5F;
+    }
+
+                                                                                         /* Full-Screen Video Banner */
+    .video-banner {
+      position: relative;
+      height: 100vh; /* Full-screen height */
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .video-banner video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensure the video covers the screen */
+    }
+
+    .video-banner .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.4); /* Slight dark overlay for better text visibility */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #FFF;
+      text-align: center;
+    }
+
+    .video-banner .overlay h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .video-banner .overlay .cta-btn {
+      background: #B76E79;
+      color: #FFF;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background 0.3s ease;
+    }
+
+    .video-banner .overlay .cta-btn:hover {
+      background: #A15A5F;
+    }
+
+                                                                                                      /* Carousel */
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .carousel-slide img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .carousel-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .carousel-nav button {
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #FFF;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+                                                                                    /* Infinite Horizontal Scroll Gallery */
+.scroll-section {
+  margin: 40px 0;
+}
+
+.scroll-title {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5em;
+  color: var(--dark-color); /* Using dark text color from root */
+}
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-primary {
+  display: inline-flex;
+  white-space: nowrap;
+  width: max-content;
+  animation: scroll-horizontal 20s linear infinite;
+}
+
+.carousel-primary a {
+  display: inline-block;
+}
+
+.carousel-primary img {
+  height: 300px;
+  margin-right: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 6px var(--shadow-color); /* Adding subtle shadow from root */
+}
+
+/* Horizontal Scroll Animation */
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-container:hover .carousel-primary {
+  animation-play-state: paused; /* Pause scrolling when hovered */
+}
+    
+
+                                                                                                   /* Contact Form */
+    .contact-form {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #FFF;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .contact-form h2 {
+      margin-bottom: 20px;
+      color: #B76E79;
+    }
+    .contact-form input, 
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background: #B76E79;
+      color: #FFF;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background: #A15A5F;
+    }
+
+                                                                                          /* Statistics Section */
+    .stats {
+      background: #f9f9f9;
+      padding: 60px 0;
+    }
+    .stats-grid {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .stat-item {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 20px 15px;
+      text-align: center;
+      border-radius: 10px;
+      max-width: 250px;
+      flex: 1;
+    }
+    .stat-item h3 {
+      font-size: 2.5rem;
+      color: #B76E79;
+    }
+    .stat-item p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+                                                                                                   /* FAQ Section Wrapper */
+    .faq-section {
+      padding: 60px 0;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+    /* Container to Center Content */
+    .faq-container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    /* Section Heading */
+    .faq-heading {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #333;
+    }
+    /* Intro Paragraph */
+    .faq-container p {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #666;
+    }
+    /* FAQ Item Styling */
+    .faq-item {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      background: #fff;
+      transition: background 0.3s ease;
+    }
+    /* FAQ Question – the clickable header */
+    .faq-question {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 15px;
+      cursor: pointer;
+      position: relative;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    /* Plus/Minus Indicator */
+    .faq-question::after {
+      content: "+";
+      position: absolute;
+      right: 20px;
+      font-size: 1.5rem;
+      transition: transform 0.3s;
+    }
+    /* When active, the question icon changes */
+    .faq-item.active .faq-question::after {
+      content: "-";
+      transform: rotate(180deg);
+    }
+    /* FAQ Answer – hidden by default */
+    .faq-answer {
+      padding: 0 15px;
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+      color: #333;
+      font-size: 1rem;
+    }
+    /* When active, reveal answer padding */
+    .faq-item.active .faq-answer {
+      padding: 15px;
+    }
+
+                                                                                               /* Footer */
+    .footer {
+      background: #333;
+      color: #FAF8F3;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .footer-column {
+      flex: 1 1 220px;
+      margin: 10px;
+    }
+    .footer-column h3 {
+      color: #B76E79;
+      margin-bottom: 15px;
+    }
+    .footer-column p, .footer-column li {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+    }
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+    .footer-column a {
+      color: #FAF8F3;
+      transition: color 0.3s ease;
+    }
+    .footer-column a:hover {
+      color: #FFF;
+    }
+    .footer-cta {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .footer-cta button {
+      background: #B76E79;
+      color: #FFF;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .footer-cta button:hover {
+      background: #A15A5F;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Header -->
+  <div class="top-header">
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="top-buttons">
+    <a href="free-assessment.html"class="blog-btn">Free Online Health Assessment</a>
+    <a href="https://example.com/book-consultation" class="consult-btn">Book Consultation</a>
+  </div>
+</div>
+
+  <!-- Navigation Bar -->
+  <header class="nav-container" id="navbar">
+    <nav>
+      <ul class="nav-menu">
+        <li>
+            <a href="about-introduction.html">About Us</a>
+            <ul class="dropdown-content">
+              <li><a href="about-introduction.html">Our Introduction</a></li>
+              <li><a href="about-vision-mission.html">Our Vision &amp; Mission</a></li>
+              <li><a href="about-philosophy.html">Our Philosophy</a></li>
+              <li><a href="about-guru.html">Our Guru</a></li>
+              <li><a href="about-leadership.html">Our Leadership</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="treatments-paediatrics.html">Treatments</a>
+            <ul class="dropdown-content">
+              <li><a href="treatments-paediatrics.html">Paediatrics</a></li>
+              <li><a href="treatments-gynae.html">Gynae Ailments</a></li>
+              <li><a href="treatments-joint-muscle.html">Joint &amp; Muscle Pain</a></li>
+              <li><a href="treatments-skin.html">Skin Ailments</a></li>
+              <li><a href="treatments-hair.html">Hair Problems</a></li>
+              <li><a href="treatments-allergies.html">Allergies</a></li>
+              <li><a href="treatments-respiratory.html">Respiratory Ailments</a></li>
+              <li><a href="treatments-cardiac.html">Cardiac Ailments</a></li>
+              <li><a href="treatments-endocrinal.html">Endocrinal Issues</a></li>
+              <li><a href="treatments-gastrointestinal.html">Gastrointestinal Ailments</a></li>
+              <li><a href="treatments-kidney.html">Kidney Ailments</a></li>
+            </ul>
+          </li>
+	  <li>
+            <a href="holistic-why.html">Holistic Health</a>
+            <ul class="dropdown-content">
+              <li><a href="holistic-why.html">Why Holistic Health</a></li>
+              <li><a href="holistic-wellness.html">Wellness Packages</a></li>
+             </ul>
+        </li>
+      </ul>
+    </nav>
+   <!-- Centered Clickable Logo -->
+<div class="logo">
+  <a href="index.html" style="color: inherit; text-decoration: none;">HB Clinic</a>
+</div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="https://example.com/wellness-blog">Wellness Blog</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+ <li>
+          <!-- Search Button -->
+          <button class="search-btn" id="searchButton">
+            <i class="fas fa-search"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Search Box -->
+  <div class="search-box-container" id="searchBox">
+    <input type="text" placeholder="Search...">
+    <button class="search-submit">Go</button>
+  </div>
+
+ <!-- Full-Screen Video Banner -->
+  <section class="video-banner" id="home">
+    <video autoplay muted loop>
+      <source src="video-banner.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+      <h1>Transform Your Health, Naturally.</h1>
+      <p>Experience personalized homeopathy and holistic wellness that rejuvenates your body, mind, and spirit.</p>
+      <button class="cta-btn" onclick="location.href='#contact'">Get Started</button>
+    </div>
+  </section>
+
+<!-- Introduction Section -->
+    <section id="intro">
+      <div class="container">
+        <div class="section-title">
+          <h2>Welcome to H.B. Remedial Clinic</h2>
+          <p>Where Natural Healing Meets Modern Expertise</p>
+        </div>
+        <p>
+          At H.B. Remedial Clinic, we blend traditional homeopathy with contemporary holistic practices to provide personalized and compassionate care. Our team of experts is dedicated to nurturing your well-being, ensuring that every treatment is designed uniquely for you.Our clinic in Gwalior has been a beacon of natural healing for decades.
+        </p>
+      </div>
+    </section>
+
+
+ <!-- Main Content Sections -->
+  <!-- Statistics Section -->
+  <section class="stats">
+    <div class="container">
+      <h2 style="text-align: center;">Our Achievements</h2>
+      <p style="text-align: center; margin-bottom: 40px;">H.B. Remedial Clinic has been a cornerstone of natural healing and wellness for the Gwalior community and beyond. Here’s why thousands trust us.</p>
+      <div class="stats-grid">
+        <!-- Stat Item 1 -->
+        <div class="stat-item">
+          <h3>10,000+</h3>
+          <p>Successful Treatments Delivered</p>
+        </div>
+        <!-- Stat Item 2 -->
+        <div class="stat-item">
+          <h3>25+</h3>
+          <p>Years of Dedicated Service</p>
+        </div>
+        <!-- Stat Item 3 -->
+        <div class="stat-item">
+          <h3>98%</h3>
+          <p>Patient Satisfaction Rate</p>
+        </div>
+        <!-- Stat Item 4 -->
+        <div class="stat-item">
+          <h3>50+</h3>
+          <p>Chronic Conditions Managed</p>
+        </div>
+        <!-- Stat Item 5 -->
+        <div class="stat-item">
+          <h3>100+</h3>
+          <p>Workshops and Health Seminars Conducted</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="treatments">
+    <h2>Treatments & Therapies</h2>
+    <p>Our treatments cater to chronic illnesses, pain management, and overall wellness using carefully tailored homeopathic solutions.</p>
+    <button class="cta-btn" onclick="location.href='#contact'">Learn More</button>
+  </section>
+
+  <section id="holistic-health">
+    <h2>Holistic Health Programs</h2>
+    <p>Experience personalized health plans and natural therapies curated to uplift your mind, body, and spirit.</p>
+    <button class="cta-btn" onclick="location.href='#contact'">Join Now</button>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Explore moments captured at our clinic and during various wellness events.</p>
+    <!-- Additional gallery content can be added here -->
+  </section>
+
+<!-- Gallery / Infinite Scroll Section -->
+    <section id="gallery" class="scroll-section">
+      <h2 class="scroll-title">Gallery</h2>
+      <div class="scroll-container">
+        <div class="carousel-primary">
+          <a href="https://example.com/page1">
+            <img src="slide1.jpg" alt="Gallery Image 1">
+          </a>
+          <a href="https://example.com/page2">
+            <img src="slide2.jpg" alt="Gallery Image 2">
+          </a>
+          <a href="https://example.com/page3">
+            <img src="slide3.jpg" alt="Gallery Image 3">
+          </a>
+          <!-- Duplicate images for seamless scrolling -->
+          <a href="https://example.com/page1">
+            <img src="slide1.jpg" alt="Gallery Image 1">
+          </a>
+          <a href="https://example.com/page2">
+            <img src="slide2.jpg" alt="Gallery Image 2">
+          </a>
+          <a href="https://example.com/page3">
+            <img src="slide3.jpg" alt="Gallery Image 3">
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Call to Action Section -->
+  <section class="cta-section">
+    <h1>Ready to Transform Your Health?</h1>
+    <p>Discover the power of natural healing and premium care at H.B. Remedial Clinic.</p>
+    <button class="cta-btn" onclick="location.href='#contact'">Contact Us Today</button>
+  </section>
+
+
+  <!-- FAQ Section -->
+  <section id="faqs" class="faq-section">
+    <div class="faq-container">
+      <h2 class="faq-heading">Frequently Asked Questions</h2>
+      <p>Find answers to common questions about our treatments, philosophy, and approach at H.B. Remedial Clinic.</p>
+
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <div class="faq-question">What is homeopathy?</div>
+        <div class="faq-answer">
+          Homeopathy is a natural system of medicine based on the principle of “like cures like,” where minute doses of natural substances stimulate the body’s healing response.
+        </div>
+      </div>
+      
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <div class="faq-question">How does holistic wellness benefit me?</div>
+        <div class="faq-answer">
+          Holistic wellness addresses your physical, emotional, and mental health by integrating various therapies, promoting overall balance and optimal well-being.
+        </div>
+      </div>
+      
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <div class="faq-question">What conditions can be treated with homeopathy?</div>
+        <div class="faq-answer">
+          Homeopathy effectively manages a variety of conditions, including allergies, digestive issues, stress, chronic fatigue, and skin disorders. Our expert team customizes treatments to your specific needs.
+        </div>
+      </div>
+      
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <div class="faq-question">How is your approach different from other clinics?</div>
+        <div class="faq-answer">
+          We combine decades of experience with a personalized, patient-first approach that integrates homeopathy with holistic practices, ensuring long-lasting and effective results.
+        </div>
+      </div>
+      
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <div class="faq-question">Do I need a consultation before starting treatment?</div>
+        <div class="faq-answer">
+          Yes, a consultation is essential. It allows us to assess your condition and create a tailored treatment plan to provide you with the best possible care.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <div class="contact-form">
+      <h2>Contact Us Today</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- Column 1: Clinic Name & Intro -->
+    <div class="footer-column">
+      <h3>H.B. Remedial Clinic</h3>
+      <p>Your partner in natural and holistic healthcare.</p>
+    </div>
+    <!-- Column 2: Contact Details -->
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="tel:+919171593799"><i class="fas fa-phone"></i> +91-91715-93799</a></li>
+        <li><a href="mailto:hbrc.gwl@gmail.com"><i class="fas fa-envelope"></i> hbrc.gwl@gmail.com</a></li>
+        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Bhagwan Sri Haidakhan Baba Ashram, Gwalior</a></li>
+      </ul>
+    </div>
+    <!-- Column 3: Quick Links -->
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#holistic-health">Holistic Health</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Column 4: Center of Excellence / Events / News -->
+    <div class="footer-column">
+      <h3>Center of Excellence</h3>
+      <p>Stay tuned for our upcoming wellness events and the latest news.</p>
+      <ul>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#news">News</a></li>
+      </ul>
+    </div>
+    <!-- Footer CTA -->
+    <div class="footer-cta">
+      <button onclick="location.href='#contact'">Get In Touch</button>
+    </div>
+  </footer>
+
+  
+   <script>
+const navbar = document.getElementById("navbar");
+const topHeader = document.querySelector(".top-header");
+const searchButton = document.getElementById("searchButton");
+const searchBox = document.getElementById("searchBox");
+
+// Sticky Navbar and Background Logic
+window.addEventListener("scroll", () => {
+  const headerHeight = topHeader.offsetHeight; // Get the height of the top header
+  if (window.scrollY > headerHeight) {
+    navbar.classList.add("sticky"); // Add 'sticky' class for fixed position
+    navbar.classList.add("active"); // Keep the background visible when sticky
+  } else {
+    navbar.classList.remove("sticky"); // Remove sticky behavior when at top
+    navbar.classList.remove("active"); // Reset background when scrolling to the top
+  }
+});
+
+// Search Box Toggle and Positioning
+searchButton.addEventListener("click", () => {
+  const isVisible = searchBox.style.display === "block";
+  searchBox.style.display = isVisible ? "none" : "block";
+
+  // Ensure Navbar Background Stays Visible When Search Box is Open
+  if (!isVisible) {
+    navbar.classList.add("active");
+  } else {
+    // Only remove 'active' if the user closes the search box and isn't sticky
+    if (!navbar.classList.contains("sticky")) {
+      navbar.classList.remove("active");
+    }
+  }
+
+  // Dynamically Position Search Box Below Navbar at Right Corner
+  const buttonRect = searchButton.getBoundingClientRect();
+  const navbarRect = navbar.getBoundingClientRect();
+  searchBox.style.top = `${navbarRect.bottom + window.scrollY}px`; // Below sticky navbar
+  searchBox.style.right = `20px`; // Aligned to the right corner
+});
+
+<!-- JavaScript for Carousel and Interactions -->
+   // --- Carousel Functionality ---
+    const carouselSlide = document.querySelector('.carousel-slide');
+    const carouselImages = document.querySelectorAll('.carousel-slide img');
+    
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    
+    let counter = 0;
+    const size = carouselImages[0].clientWidth;
+    
+    nextBtn.addEventListener('click', () => {
+      if(counter >= carouselImages.length - 1) return;
+      carouselSlide.style.transition = "transform 0.4s ease-in-out";
+      counter++;
+      carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+    });
+    
+    prevBtn.addEventListener('click', () => {
+      if(counter <= 0) return;
+      carouselSlide.style.transition = "transform 0.4s ease-in-out";
+      counter--;
+      carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'; 
+
+// Auto-play Carousel
+    setInterval(() => {
+      if (counter < carouselImages.length - 1) {
+        nextBtn.click();
+      } else {
+        counter = -1;
+        nextBtn.click();
+      }
+    }, 4000);
+   });
+  
+<!-- JavaScript for toggling FAQ answers -->
+    document.addEventListener('DOMContentLoaded', function() {
+      var faqQuestions = document.querySelectorAll('.faq-question');
+      
+      faqQuestions.forEach(function(question) {
+        question.addEventListener('click', function() {
+          // Toggle the active class on the faq-item
+          var faqItem = this.parentElement;
+          faqItem.classList.toggle('active');
+          
+          // Select the corresponding answer element
+          var answer = faqItem.querySelector('.faq-answer');
+          
+          // Toggle max-height based on whether the item is active
+          if (faqItem.classList.contains('active')) {
+            // Set max-height to the scrollHeight value (fully shows content)
+            answer.style.maxHeight = answer.scrollHeight + "px";
+          } else {
+            // Hide the content by setting max-height back to 0px
+            answer.style.maxHeight = "0px";
+          }
+        });
+      });
+    });
+
+  </script>
+</body>
+</html>
